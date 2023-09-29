@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 300px; /* Largeur fixe pour la boîte */
+}
+
+.box div {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 100%; /* Largeur fixe pour les éléments à l'intérieur */
+}
+
+.un, .deux, .trois, .quatre {
+    width: 100%; /* Même largeur pour tous les éléments à l'intérieur de la box */
+}
+
+.un {
+    background-color: #e74c3c;
+}
+
+.deux {
+    background-color: #2ecc71;
+}
+
+.trois {
+    background-color: #f39c12;
+}
+
+.quatre {
+    background-color: #3498db;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Supprime les bordures autour des liens */
+a {
+    text-decoration: none; /* Supprime le soulignement */
+    border: none; /* Supprime les bordures */
+    outline: none; /* Supprime la mise en surbrillance au focus */
+
+}
+
+a:hover {
+    font-size: 1.2em; /* Change la taille de la police au survol */
+}
+
+.logo {
+    width: 70px; /* Ajustez la largeur selon vos besoins */
+    height: 70px; /* Ajustez la hauteur selon vos besoins pour obtenir une forme ronde */
+    border-radius: 50%; /* Pour obtenir une forme ronde */
+    float: left; /* Pour positionner le logo à gauche */
+    margin-right: auto; /* Marge à droite du logo pour l'espacement */
+}
+

@@ -1,0 +1,36 @@
+/* Style de base pour la barre de navigation */
+nav {
+    background-color: #3498db;
+}
+
+#barrenav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.barrnav {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: solid white; /* Ajoute une bordure en dessous au survol */
+}
+
+h2
+{
+    text-align: center;
+}
+
+.logo {
+    width: 70px; /* Ajustez la largeur selon vos besoins */
+    height: 70px; /* Ajustez la hauteur selon vos besoins pour obtenir une forme ronde */
+    border-radius: 50%; /* Pour obtenir une forme ronde */
+    float: left; /* Pour positionner le logo à gauche */
+    margin-right: auto; /* Marge à droite du logo pour l'espacement */
+}
