@@ -1,35 +1,91 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Métiers du Web</title>
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/pageweb.css">
     <link rel="icon" type="image" href="img/url.jpg">
 </head>
+
 <body>
 
 <header>
-    <img src="img/logo.png" alt="Logo de votre site" class="logo">
-    <h1>Présentation environnement et technologies web</h1>
-    <nav>
-        <ul id="barrenav">
-            <li class="barrnav" ><a href="index.html">Accueil</a></li>
-            <li class="barrnav" ><a href="metierweb.html">Métier du Web</a></li>
-            <li class="barrnav" ><a href="evolutiondelinfo.html">Evolution de l'informatique</a></li>
-            <li class="barrnav"><a href="nomsdedomaine.html">Noms de domaine</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+        <img src="img/logo.png" alt="Logo de votre site" class="logo">
+        <h1>Présentation environnement et technologies web</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="definition.html">Définition</a></li>
+                <li><a href="metierweb.html">Métier du web</a></li>
+                <li><a href="url.html">Définition URL</a></li>
+                <li><a href="evolutionweb.html">L'évolution du web</a></li>
+        </nav>
+    </div>
 </header>
 
 <main>
-    <h2>les urls</h2>
-    <p>test test </p>
+    <h2>Les Urls</h2>
+    <img src="img/url-explication.jpg" alt="url-explication" class="explication">
+
+    <ul>
+        <li>Une URL, ou Uniform Resource Locator, est une chaîne de caractères utilisée pour identifier une ressource spécifique sur Internet, telle qu'une page web, une image, un fichier, etc. L'URL indique également comment accéder à cette ressource.</li>
+        <br>
+        <li>Voici une analyse détaillée d'une URL typique :</li>
+    </ul>
+    <ol>
+        <li>
+            Protocole (Scheme) : https <br><br>
+            Le protocole est la méthode ou la convention utilisée pour accéder à la ressource. Dans cet exemple, le protocole est HTTPS, ce qui indique une connexion sécurisée.
+         </li>
+         <br>
+         <li>
+            Sous-domaine : www <br><br>
+            Le sous-domaine indique souvent une section spécifique d'un site web. Dans ce cas, "www" est un sous-domaine commun utilisé pour le World Wide Web.
+         </li>
+         <br>
+         <li>
+            Domaine : example.com <br><br>
+            Le domaine est l'adresse principale du site web. Il est souvent suivi d'un point "." et d'un suffixe comme ".com", ".net", ".org", etc.
+         </li>
+         <br>
+         <li>
+            Port : 8080 <br><br>
+            La port est un numéro utilisé pour spécifier un point d'entrée sur le serveur. Dans ce cas, le serveur utilise le port 8080.
+         </li>
+         <br>
+         <li>
+            Chemin (Path) : /path/to/resource <br><br>
+            Le chemin indique le chemin vers la ressource spécifique sur le serveur. Il peut inclure des répertoires et des noms de fichiers.
+         </li>
+         <br>
+         <li>
+           <p>Paramètres de requête : ?param1=value1&param2=value2<br><br>
+            Les paramètres de requête contiennent des informations supplémentaires envoyées au serveur. Ils sont séparés de l'URL par le "?" et sont souvent au format "clé=valeur". Dans cet exemple, il y a deux paramètres de requête, "param1" avec la valeur "value1" et "param2" avec la valeur "value2".
+         </li>
+         <br>
+         <li>
+            Fragment : #section <br><br>
+            Le fragment identifie une partie spécifique de la ressource, comme une ancre dans une page web. Il est souvent utilisé pour naviguer vers un endroit précis dans une page.
+         </li>
+         <br>
+         <ul>
+            <il>
+                L'URL est essentielle pour naviguer sur le web car elle permet de localiser et d'accéder à diverses ressources en ligne de manière structurée. Chaque partie de l'URL a un rôle spécifique pour garantir un accès précis et correct aux ressources sur Internet.
+            </il>
+         </ul>
+
+    </ol>
+
 </main>
 
 <footer>
-    <p>Contenu du footer ici</p>
+    <div class="container">
+    </div>
 </footer>
 
 </body>
+
 </html>
