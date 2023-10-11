@@ -103,6 +103,7 @@ h3, h4 {
     width: 250px;
     height: 120px;
 }
+
 .container-card {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -110,12 +111,12 @@ h3, h4 {
 }
 .card {
     border: solid;
-    /*border-radius: 20px; */
+    border-radius: 5px ;
+    overflow: hidden;
     width: 250px;
     height: 320px;   
-}
-.card-top {
-    
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
 }
 
 .card-infos {
@@ -138,24 +139,6 @@ h3, h4 {
     font-size: 0.7em;
 }
 
-.button {
-    margin-bottom: 1em;
-    text-align: center;
-}
-
-button {
-    border: solid 2px lightpink;
-    border-radius: 5px;
-    background: #ffffff;
-    color: lightpink;
-    cursor: pointer;
-}
-
-.button:hover {
-
-    background: lightpink;
-    color: #ffffff;
-}
 
 footer {
     background: rgb(158, 158, 158);
@@ -165,5 +148,33 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button {
+    padding: 10px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #008CBA; /* Couleur du texte */
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Ajoute une ombre */
+    background-color: white;
+  }
+  
+  .button:hover {
+    color: #005f6b; /* Couleur du texte au survol */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4); /* Ajoute une ombre */
+  }
+  
+
+  
 /*! FOOTER */
 
