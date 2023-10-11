@@ -110,6 +110,7 @@ h3, h4 {
 }
 .card {
     border: solid;
+    /*border-radius: 20px; */
     width: 250px;
     height: 320px;   
 }
