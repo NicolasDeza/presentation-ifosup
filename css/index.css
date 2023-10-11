@@ -110,7 +110,6 @@ h3, h4 {
     
 }
 .card {
-    border: solid;
     border-radius: 5px ;
     overflow: hidden;
     width: 250px;
