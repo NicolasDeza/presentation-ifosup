@@ -100,7 +100,7 @@ h3, h4 {
     
 }
 #piratage {
-    width: 250px;
+    width: 100%;
     height: 120px;
 }
 
@@ -123,6 +123,7 @@ h3, h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 40px;
 }
  .name {
     color: rgb(90, 90, 90);
