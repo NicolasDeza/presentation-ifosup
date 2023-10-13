@@ -60,3 +60,11 @@ h3 {
     width: 50%;
 }
 
+footer {
+    background: rgb(158, 158, 158);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
