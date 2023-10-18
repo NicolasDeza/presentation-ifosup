@@ -9,7 +9,9 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
-
+h1 {
+    text-align: center;
+}
 header {
     background-color: #3498db;
     color: white;
@@ -17,7 +19,7 @@ header {
     overflow: hidden;
 }
 
-header nav ul {
+header nav ul  {
     list-style-type: none;
     padding: 0;
     text-align: center;
@@ -48,12 +50,14 @@ h3 {
 }
 
 .logo {
-    width: 70px;
-    height: 70px;
+    margin-left: 85px;
+    margin-top: 13px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     float: left;
-    margin-right: 20px;
 }
+   
 
 .explication
 {
